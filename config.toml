@@ -1,0 +1,4 @@
+baseURL = "https://adamfallon.com"
+languageCode = "en-us"
+title = "adamfallon.com"
+theme = "hugo-theme-console"
