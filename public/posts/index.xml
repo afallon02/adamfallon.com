@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on adamfallon.com</title>
+    <link>https://adamfallon.com/posts/</link>
+    <description>Recent content in Posts on adamfallon.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Dec 2020 12:27:52 +0000</lastBuildDate><atom:link href="https://adamfallon.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Useful Unix</title>
+      <link>https://adamfallon.com/posts/useful-unix/</link>
+      <pubDate>Tue, 22 Dec 2020 12:27:52 +0000</pubDate>
+      
+      <guid>https://adamfallon.com/posts/useful-unix/</guid>
+      <description>Table of Contents  How to show top 20 largest files from the command line Show all ports open on a machine Find your internal ip address  How to show top 20 largest files from the command line sudo du -a / | sort -n -r | head -n 20  Show all ports open on a machine nmap -sn &amp;lt;INTERNAL IP ADDRESS&amp;gt;  Find your internal ip address ip addr  </description>
+    </item>
+    
+  </channel>
+</rss>

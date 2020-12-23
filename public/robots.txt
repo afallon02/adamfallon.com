@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /
+
+Disallow: /posts/
+
+Disallow: /posts/useful-unix/
+
+Disallow: /categories/
+
+Disallow: /tags/
+
+Disallow: /
