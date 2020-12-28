@@ -20,6 +20,7 @@ This will then generate a file called `robots.txt` inside your `public` director
 
 You can then edit this with the following to tell all crawlers to not index your site;
 `
+
 User-agent: *
 
 Disallow: /
@@ -35,6 +36,7 @@ Disallow: /categories/
 Disallow: /tags/
 
 Disallow: /
+
 `
 
 Redeploy your site and now your site should not be indexed anymore.
