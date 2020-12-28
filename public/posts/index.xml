@@ -6,14 +6,26 @@
     <description>Recent content in Posts on adamfallon.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Dec 2020 12:27:52 +0000</lastBuildDate><atom:link href="https://adamfallon.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Dec 2020 10:00:51 +0000</lastBuildDate><atom:link href="https://adamfallon.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opt out of internet archive with hugo</title>
+      <link>https://adamfallon.com/posts/opt_out_of_internet_archive/</link>
+      <pubDate>Mon, 28 Dec 2020 10:00:51 +0000</pubDate>
+      
+      <guid>https://adamfallon.com/posts/opt_out_of_internet_archive/</guid>
+      <description>If you don&amp;rsquo;t fancy old versions of your website being archived by The Internet Archive you can use a file called robots.txt to tell its crawler to skip your site.
+To do this with a hugo website is quite simple. Inside your config.toml add the following;
+enableRobotsTXT: true Then run your build command;
+hugo -D </description>
+    </item>
+    
     <item>
       <title>Useful Unix</title>
       <link>https://adamfallon.com/posts/useful-unix/</link>
       <pubDate>Tue, 22 Dec 2020 12:27:52 +0000</pubDate>
       
       <guid>https://adamfallon.com/posts/useful-unix/</guid>
-      <description>Table of Contents  How to show top 20 largest files from the command line Show all ports open on a machine Find your internal ip address  How to show top 20 largest files from the command line sudo du -a / | sort -n -r | head -n 20  Show all ports open on a machine nmap -sn &amp;lt;INTERNAL IP ADDRESS&amp;gt;  Find your internal ip address ip addr  </description>
+      <description>Table of Contents  How to show top 20 largest files from the command line Show all ports open on a machine Find your internal ip address Create a user and add it to a group  How to show top 20 largest files from the command line sudo du -a / | sort -n -r | head -n 20  Show all ports open on a machine nmap -sn &amp;lt;INTERNAL IP ADDRESS&amp;gt;  Find your internal ip address ip addr  Create a user and add it to a group # Create the new group sudo groupadd GROUPNAME # Add user to new group (requires you to logout after) sudo usermod -aG GROUPNAME $USER # See which groups you are a part off groups  </description>
     </item>
     
   </channel>

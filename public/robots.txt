@@ -2,6 +2,8 @@ User-agent: *
 
 Disallow: /
 
+Disallow: /posts/opt_out_of_internet_archive/
+
 Disallow: /posts/
 
 Disallow: /posts/useful-unix/

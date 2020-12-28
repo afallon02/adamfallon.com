@@ -24,7 +24,7 @@
 
 
 <meta name="twitter:title" content="Useful Unix"/>
-<meta name="twitter:description" content="Table of Contents  How to show top 20 largest files from the command line Show all ports open on a machine Find your internal ip address  How to show top 20 largest files from the command line sudo du -a / | sort -n -r | head -n 20  Show all ports open on a machine nmap -sn &lt;INTERNAL IP ADDRESS&gt;  Find your internal ip address ip addr  "/>
+<meta name="twitter:description" content="Table of Contents  How to show top 20 largest files from the command line Show all ports open on a machine Find your internal ip address Create a user and add it to a group  How to show top 20 largest files from the command line sudo du -a / | sort -n -r | head -n 20  Show all ports open on a machine nmap -sn &lt;INTERNAL IP ADDRESS&gt;  Find your internal ip address ip addr  Create a user and add it to a group # Create the new group sudo groupadd GROUPNAME # Add user to new group (requires you to logout after) sudo usermod -aG GROUPNAME $USER # See which groups you are a part off groups  "/>
 
 </head>
 <body class="terminal">
@@ -34,8 +34,8 @@
             <div class="logo terminal-prompt">
               
               
-              <a href="https://adamfallon.com" class="no-style ">adamfallon.com</a>:~# 
-              <a href='https://adamfallon.composts'>posts</a>/<a href='https://adamfallon.composts/useful-unix'>useful-unix</a>/</div></header>
+              <a href="https://adamfallon.com/" class="no-style ">adamfallon.com</a>:~# 
+              <a href='https://adamfallon.com/posts'>posts</a>/<a href='https://adamfallon.com/posts/useful-unix'>useful-unix</a>/</div></header>
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
                 
@@ -54,9 +54,10 @@ Dec. 22, 2020
 <br/><br/>
 <h1 id="table-of-contents">Table of Contents</h1>
 <ol>
-<li><a href="#orgc18fed5">How to show top 20 largest files from the command line</a></li>
-<li><a href="#orga322f9c">Show all ports open on a machine</a></li>
-<li><a href="#org21edf24">Find your internal ip address</a></li>
+<li><a href="#org28f7e84">How to show top 20 largest files from the command line</a></li>
+<li><a href="#org41187ab">Show all ports open on a machine</a></li>
+<li><a href="#org58b27bd">Find your internal ip address</a></li>
+<li><a href="#orge72f29b">Create a user and add it to a group</a></li>
 </ol>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h1 id="how-to-show-top-20-largest-files-from-the-command-line">How to show top 20 largest files from the command line</h1>
@@ -69,6 +70,15 @@ Dec. 22, 2020
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h1 id="find-your-internal-ip-address">Find your internal ip address</h1>
 <pre><code>ip addr
+</code></pre>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h1 id="create-a-user-and-add-it-to-a-group">Create a user and add it to a group</h1>
+<pre><code># Create the new group
+sudo groupadd GROUPNAME
+# Add user to new group (requires you to logout after)
+sudo usermod -aG GROUPNAME $USER
+# See which groups you are a part off
+groups
 </code></pre>
 
 
