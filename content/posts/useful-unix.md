@@ -44,3 +44,14 @@ draft: false
     sudo usermod -aG GROUPNAME $USER
     # See which groups you are a part off
     groups
+
+# Mounting a drive
+
+	# Show all mounted drives
+	mount
+	# Show only ext4 formatted drives
+	mount -t ext4
+	# Create a mountpoint
+	sudo mkdir /media/<NAME>
+	# Mount
+	sudo mount /dev/<DRIVE> /media/<NAME>
