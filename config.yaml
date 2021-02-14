@@ -31,8 +31,8 @@ params:
         # emoji: 🍥
         subtitle: My home on the web.
         avatar:
-            local: true
-            src: img/avatar.png
+            # local: true
+            # url: img/avatar.png
 
     article:
         math: false
