@@ -2,6 +2,7 @@
 title: "Opt out of internet archive with hugo"
 date: 2020-12-28T10:00:51Z
 draft: false
+image: https://habrastorage.org/getpro/habr/post_images/c84/793/5f3/c847935f3b452eec9eb554d7a7c61669.jpg
 ---
 
 If you don't fancy old versions of your website being archived by [The Internet Archive](https://archive.org) you can use a file called robots.txt to tell its crawler to skip your site.
