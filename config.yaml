@@ -58,7 +58,7 @@ params:
         enabled:
             - search
             - archives
-            - tag-cloud
+            # - tag-cloud
 
         archives:
             limit: 5
@@ -93,42 +93,54 @@ params:
         content:
             enabled: true
 
-# menu:
-#     main:
-#         - identifier: home
-#           name: Home
-#           url: /
-#           weight: -100
-#           pre: home
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -120
+          pre: home
+        
+        - identifier: github
+          name: Github
+          url: https://github.com/afallon02
+          weight: -110
+          pre: github
 
-#         - identifier: about
-#           name: About
-#           url: about
-#           weight: -90
-#           pre: user
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/adam__fallon
+          weight: -100
+          pre: twitter 
 
-#         - identifier: archives
-#           name: Archives
-#           url: archives
-#           weight: -70
-#           pre: archives
+        - identifier: linkedin
+          name: LinkedIn
+          url: https://www.linkedin.com/in/adam-f-748480205/
+          weight: -90
+          pre: linkedin   
 
-#         - identifier: search
-#           name: Search
-#           url: search
-#           weight: -60
-#           pre: search
+        # - identifier: archives
+        #   name: Archives
+        #   url: archives
+        #   weight: -70
+        #   pre: archives
+
+        # - identifier: search
+        #   name: Search
+        #   url: search
+        #   weight: -60
+        #   pre: search
 
 related:
     includeNewer: true
     threshold: 60
     toLower: false
-    indices:
-        - name: tags
-          weight: 100
+    # indices:
+    #     - name: tags
+    #       weight: 100
 
-        - name: categories
-          weight: 200
+    #     - name: categories
+    #       weight: 200
 
 markup:
     highlight:
